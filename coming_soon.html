@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <title>Karonese101</title>
+<html lang="en">
+  <body background="fernpicture.jpg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,800;1,700&display=swap" rel="stylesheet">
+<main>
+  <h1 class="visually-hidden">Sidebars examples</h1>
+   <div style="background-image: url(https://www.wallpaperuse.com/wallp/15-157505_m.jpg);
+     background-repeat: no-repeat;background-attachment: fixed;
+  background-size: cover;"
+   >
+  <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
+    <a>
+        <p class="fs-4" style="font-family:'Bitter';margin: 5px 0px -5px -5px"><font size="6">&nbsp;Menu</font></p>
+    </a>
+    <hr>
+    <ul class="nav nav-pills flex-column mb-auto">
+      <li>
+        <a href="{% url 'home'%}" class="nav-link text-white">
+          <p style = font-family:'Bitter',serif;><font size="+1">Home</font>
+        </a>
+      </li>
+      <li>
+        <a href="{% url 'about'%}" class="nav-link text-white">
+           <p style = font-family:'Bitter',serif;><font size="+1">Notes</font>
+        </a>
+      </li>
+      <li>
+        <a href="{% url 'game'%}" class="nav-link text-white" aria-current="page">
+          <p style = font-family:'Bitter',serif;><font size="+1">Game</font>
+        </a>
+      </li>
+      <li>
+        <a href="{% url 'coming_soon'%}" class="nav-link text-white">
+          <p style = font-family:'Bitter',serif;><font size="+1"><u>Coming Soon</u></font>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <svg class="bi me-2" width="16" height="620"></svg>
+        </a>
+      </li>
+    </ul>
+    <hr>
+    <div class="dropdown">
+    </div>
+  </div>
+   </div>
+</main>
+     <div style = "position:fixed; left:630px; top:200px; -webkit-text-stroke: 4px #217607">
+        <a href="#" class="nav-link text-white">
+         <p style = font-family:'Bitter';font-size:6vw><strong>Coming Soon</strong>
+        </a>
+      </div>
